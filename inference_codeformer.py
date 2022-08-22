@@ -79,7 +79,7 @@ if __name__ == '__main__':
         args.upscale,
         face_size=512,
         crop_ratio=(1, 1),
-        det_model = 'YOLOv5l',
+        det_model = 'retinaface_resnet50',
         save_ext='png',
         use_parse=True,
         device=device)
